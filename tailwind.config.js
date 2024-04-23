@@ -6,7 +6,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        accent: "#179975",
+        accentDark: "#184D47"
+      },
+      container: {
+        center: true,
+        padding: "15px"
+        
+        
+      }
+    },
   },
   plugins: [],
 }
